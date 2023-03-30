@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".BorrowerFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/borrowerId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Borrower ID"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Firstname"
+            android:inputType="text"/>
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Lastname"
+            android:inputType="text"/>
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:drawableStart="@drawable/vector_add"
+            android:background="@drawable/success_button"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:gravity="start|center"
+            android:text="ADD"/>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinnerFilterDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            />
+
+        <EditText
+            android:id="@+id/searchBook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Search here.."
+            android:drawableStart="@drawable/vector_search"
+            android:inputType="text"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Activity12 Database CRUD</string>
+    <string name="app_logo_description">Login Application logo</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_lastname">Lastname</string>
+    <string name="hint_firstname">Firstname</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_answer">Answer</string>
+
+
+    <string-array name="question_list">
+        <item name="default">Select Security Question</item>
+        <item name="Android/ Mobile Dev">Question #1</item>
+        <item name="Web Developer">Question #2</item>
+        <item name="FullStack Web Developer">Question #3</item>
+        <item name="FullStack Software Developer">Question #4</item>
+        <item name="UIX Designer">Question #5</item>
+        <item name="QA Engineer">Question #6</item>
+        <item name="Technical Support Engineer">Question #7</item>
+        <item name="IT Specialist">Question #8</item>
+        <item name="DB Administrator">Question #9</item>
+        <item name="Customer Support">Question #10</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
